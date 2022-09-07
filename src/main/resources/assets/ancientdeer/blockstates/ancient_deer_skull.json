@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model" : "ancientdeer:block/ancient_deer_skull"},
+    "facing=east":  {"model" : "ancientdeer:block/ancient_deer_skull", "y" :90},
+    "facing=south": {"model" : "ancientdeer:block/ancient_deer_skull", "y" :180},
+    "facing=west":  {"model" : "ancientdeer:block/ancient_deer_skull", "y" :270}
+  }
+}

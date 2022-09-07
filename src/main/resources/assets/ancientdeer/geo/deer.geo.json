@@ -1,0 +1,82 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [-0.5, 1, 0],
+					"cubes": [
+						{"origin": [-4.5, 10, -7], "size": [9, 8, 18], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "legs",
+					"parent": "root",
+					"pivot": [0, -2, 0]
+				},
+				{
+					"name": "BL",
+					"parent": "legs",
+					"pivot": [2.5, 10, 9],
+					"cubes": [
+						{"origin": [1, 0, 7.5], "size": [3, 10, 3], "uv": [44, 27]}
+					]
+				},
+				{
+					"name": "BR",
+					"parent": "legs",
+					"pivot": [-2.5, 10, 9],
+					"cubes": [
+						{"origin": [-4, 0, 7.5], "size": [3, 10, 3], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "FL",
+					"parent": "legs",
+					"pivot": [2.5, 10, -4.5],
+					"cubes": [
+						{"origin": [1, 0, -6], "size": [3, 10, 3], "uv": [44, 41]}
+					]
+				},
+				{
+					"name": "FR",
+					"parent": "legs",
+					"pivot": [-2.5, 10, -4.5],
+					"cubes": [
+						{"origin": [-4, 0, -6], "size": [3, 10, 3], "uv": [0, 51]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "root",
+					"pivot": [0, 15, -7],
+					"rotation": [40, -2.5, 0],
+					"cubes": [
+						{"origin": [-2, 13, -10], "size": [4, 12, 5], "uv": [39, 0]}
+					]
+				},
+				{
+					"name": "kop",
+					"parent": "head",
+					"pivot": [-0.82877, 23.39387, -6.82754],
+					"rotation": [-35, 0, 0],
+					"cubes": [
+						{"origin": [-8.5, 24.21791, -9.03558], "size": [17, 10, 0], "pivot": [0, 24.71791, -9.03558], "rotation": [-32.5, 0, 0], "uv": [0, 27]},
+						{"origin": [-4.85768, 24.6105, -7.88844], "size": [3, 2, 1], "pivot": [-2.00095, 24.98283, -7.57656], "rotation": [17.17679, 53.10479, 21.13216], "uv": [13, 51]},
+						{"origin": [1.85197, 24.70001, -8.13438], "size": [3, 2, 1], "pivot": [1.99524, 25.0425, -7.74052], "rotation": [17.17679, -53.10479, -21.13216], "uv": [13, 51]},
+						{"origin": [-2.5, 22.96791, -14.03558], "size": [5, 4, 8], "uv": [0, 38]}
+					]
+				}
+			]
+		}
+	]
+}
